@@ -14,7 +14,7 @@ html {
 }
 
 header {
-    margin: 3rem 0 3rem 6rem;
+  margin: 3rem 0 3rem 6rem;
 }
 
 body {
@@ -25,15 +25,16 @@ body {
 .middle {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 section {
-    width: 30vw;
+  width: 34vw;
+  margin-top: 3rem;
 }
 
 figure img {
   width: 50vw;
+  margin-right: 3rem;
 }
 
 h1 {
@@ -72,8 +73,8 @@ footer {
 }
 
 .attribution {
-    font-size: small;
-    margin-left: 6rem;
+  font-size: small;
+  margin-left: 6rem;
 }
 
 .attribution a {
@@ -83,7 +84,7 @@ footer {
 }
 
 .socials {
-    margin-right: 6rem;
+  margin-right: 6rem;
 }
 
 .socials .icon {
@@ -98,4 +99,74 @@ footer {
 .socials .icon:hover {
   color: var(--magenta);
   border: 1px solid var(--magenta);
+}
+
+@media (max-width: 425px) {
+  header {
+    margin: 1rem 0 1rem 2rem;
+  }
+  
+  header img {
+    width: 35%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section {
+    text-align: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  figure img {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 12rem;
+    height: 2.4rem;
+    font-size: .8rem;
+    border-radius: 2rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attribution {
+    margin-top: 4rem;
+    font-size: .7rem;
+    margin-left: 0;
+  }
+
+  .socials {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+
+  .socials .icon {
+    font-size: 1rem;
+    padding: 0.6rem;
+    margin: 0 0.2rem 0 0.2rem;
+  }
 }
