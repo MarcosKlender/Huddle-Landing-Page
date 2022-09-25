@@ -6,7 +6,7 @@
 html {
   height: 100vh;
   background-color: var(--violet);
-  background-image: url(/images/bg-desktop.svg);
+  background-image: url(images/bg-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
