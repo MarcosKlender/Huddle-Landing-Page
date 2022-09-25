@@ -1,0 +1,101 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+
+html {
+  height: 100vh;
+  background-color: var(--violet);
+  background-image: url(/images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}
+
+header {
+    margin: 3rem 0 3rem 6rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    width: 30vw;
+}
+
+figure img {
+  width: 50vw;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+button {
+  background-color: white;
+  color: var(--violet);
+  width: 15rem;
+  height: 4rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--magenta);
+  border: 1px solid var(--magenta);
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attribution {
+    font-size: small;
+    margin-left: 6rem;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.socials {
+    margin-right: 6rem;
+}
+
+.socials .icon {
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  margin: 0 0.6rem 0 0.6rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.socials .icon:hover {
+  color: var(--magenta);
+  border: 1px solid var(--magenta);
+}
